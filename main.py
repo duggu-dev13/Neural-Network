@@ -1,7 +1,7 @@
-import sys
-import numpy as np
-import matplotlib
+inputs = [1.2, 5.4, 6.4]
+weights = [2.3, 1.3, 4.2]
+bias = 3
 
-print("Python: ", sys.version)
-print("numpy: ", np.__version__)
-print("matplotlib: ", matplotlib.__version__)
+output = inputs[0]*weights[0] + inputs[1]*weights[1] + inputs[2]*weights[2] + bias
+
+print(output)
